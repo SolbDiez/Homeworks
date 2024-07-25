@@ -9,7 +9,7 @@ class Product:
 
 class Shop:
     def __init__(self):
-        self.__file_name = 'Product.txt'
+        self.__file_name = 'Product_7_1.txt'
     def get_products(self):
 
         try:
@@ -17,7 +17,7 @@ class Shop:
                 products = file.read()
             return products
         except FileNotFoundError:
-            print('')
+            return ''
 
     def add(self, *products):
         list_products = self.get_products().split('\n')
