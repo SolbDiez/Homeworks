@@ -1,13 +1,4 @@
-class Human:
-    head = True
-    _arms = True
-    __legs = True
+import os
 
-class Student(Human):
-    pass
-
-student = Student()
-human = Human()
-
-
-print(student._Human__legs)
+print(os.getcwd())
+os.mkdir('module_8')
