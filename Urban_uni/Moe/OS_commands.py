@@ -8,9 +8,12 @@ print(os.getcwd()) #  распечатывает путь нахождения
 #         os.utime(path, None) #  непонятная херня создания файла
 
 
-os.chdir('/Users/vk_home/PycharmProjects/Homeworks/Urban_uni/module_7') #  изменяет директорию на папку в пути нахождения
+os.chdir('../') #  изменяет директорию на папку в пути нахождения
 
 print(os.getcwd())
+
+#os.mkdir('') #  создает папку в пути нахождения
+
 #
-# with open(os.path.join('module_9', 'homework_9_2.py'), 'a') as fp: #  создаем файл
-#     fp.close()
+#with open(os.path.join('module_9', 'homework_9_3.py'), 'a') as fp: #  создаем файл
+ #    fp.close()
