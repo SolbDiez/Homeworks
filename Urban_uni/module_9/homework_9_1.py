@@ -1,4 +1,5 @@
-from  pprint import pprint
+from pprint import pprint
+
 def apply_all_func(int_list, *functions):
     results = {}
     for f in functions:
