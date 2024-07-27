@@ -1,3 +1,4 @@
+from  pprint import pprint
 def apply_all_func(int_list, *functions):
     results = {}
     for f in functions:
@@ -12,4 +13,4 @@ def apply_all_func(int_list, *functions):
 print(apply_all_func([6, 20, 15, 9], max, min))
 print(apply_all_func([6, 20, 15, 9], len, sum, sorted))
 
-print(apply_all_func(['6', 20, 15, 9], len, sum, sorted, max, min))
+pprint(apply_all_func(['6', 20, 15, 9], len, sum, sorted, max, min))
