@@ -5,5 +5,6 @@ first_result = (len(x) - len(y) for x, y in zip(first, second) if len(x) != len(
 
 second_result = (len(first[i]) == len(second[i]) for i in range(min(len(first), len(second))))
 # range(min(len(first), len(second)))) - выбираем список с минимальной длинной
+
 print(list(first_result))
 print(list(second_result))

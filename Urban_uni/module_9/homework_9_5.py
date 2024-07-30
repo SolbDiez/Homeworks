@@ -22,6 +22,7 @@ class Iterator:
         self.pointer += self.step
         return result
 
+# проверка raise:
 # iter1 = Iterator(100, 200, 0)
 # for i in iter1:
 #     print(i, end=' ')
