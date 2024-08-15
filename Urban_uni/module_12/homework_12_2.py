@@ -10,7 +10,7 @@ class Runner:
     def walk(self):
         self.distance += self.speed
 
-    def __str__(self):
+    def __repr__(self):
         return self.name
 
     def __eq__(self, other):
